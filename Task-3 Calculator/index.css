@@ -1,0 +1,54 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+body{
+        height: 100vh;
+}
+
+.dark{
+        background-image: linear-gradient(100deg , black,gray);
+}
+
+.h1{
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+}
+.dflex{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+ }
+
+
+.main_container .right{
+        height: 100%;
+        width: 70%;
+        padding: 10px;
+}
+
+.cal{
+        height:100%;
+        width: 500px;
+        margin: auto;
+}
+.result{
+        text-align: right;
+        font-size: 50px;
+        height: 60px;
+        width: 400px;
+        margin-bottom: 20px;
+       margin-left: 50px;
+}
+.cal-btn button{
+        height: 85px;
+        width: 85px;
+        border-radius: 0px;
+        background: #354357;
+        color: white;
+        font-size: 35px;
+        border-radius: 50px;
+}
+.cal-btn {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        gap: 10px;
+}
